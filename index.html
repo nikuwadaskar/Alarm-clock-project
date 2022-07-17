@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+
+    <!-- My written CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ANimate . css site css Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- FOnt links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOt strap css links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- WHole page visible -->
+    <div class="body">
+      <div class="display animate__animated animate__zoomIn animat">
+        <!-- current Time ,stop button and alert type -->
+        <div id="current-time" class="current-time">
+          <div id="alert-type" class="alert-type">
+            <select name="alert-type" id="alert" onchange="handleChange(event)">
+              <option value="alert" selected>Alert</option>
+              <option value="tring">Tring Tring Sound</option>
+            </select>
+          </div>
+          <h1 class="curr-time"></h1>
+          <button class="stop" onclick="pauseme()"><p>Stop</p></button>
+        </div>
+
+        <!-- set alarm display and button -->
+        <div class="set-alarm">
+          <input type="time" id="time" value="12:00:01" />
+          <button
+            class="btn-grad set-alarm"
+            onclick="setalarm(),addalarm(),addtrash();"
+          >
+            <h2 class="btn-set-alaram">Set Alarm</h2>
+          </button>
+          <!-- here in this id newly added alarm and delet button will be given dynamically -->
+          <div id="new"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- scrips CDN -->
+
+    <!-- Jquery CDN  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- bootstrap llibrary for css -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My written Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
