@@ -1,6 +1,5 @@
 let alert1 = true;
 let tring = false;
-let both = false;
 
 var timeArr = [];
 
@@ -51,7 +50,7 @@ function showAlert() {
   if (tring) {
     playme(true);
   } else {
-    alert("time has come");
+    alert("time has come 🔔");
   }
 }
 
