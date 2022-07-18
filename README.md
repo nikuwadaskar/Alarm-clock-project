@@ -24,4 +24,5 @@ Display a list of all the alarms set by user
 For each alarm give a delete button to delete the alarm
 When the user deletes an alarm make sure it “does not alerts the user”
 
-# Demo Link# Alarm-clock-project
+# Demo Link
+`<link>`: [Alarm-Clock](https://nikuwadaskar.github.io/Alarm-clock-project/)
