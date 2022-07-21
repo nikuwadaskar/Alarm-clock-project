@@ -29,5 +29,5 @@ When the user deletes an alarm make sure it “does not alerts the user”
 
 
 # Screenshots 
- ![UI](/assets/Screenshot%202022-07-21%20095044.jpg)
+![UI](/assets/Screenshot%202022-07-21%20095044.jpg)
 ![Alarm Ringing](/assets/Screenshot%202022-07-21%20095115.jpg)
