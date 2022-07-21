@@ -26,3 +26,8 @@ When the user deletes an alarm make sure it “does not alerts the user”
 
 # Demo Link
 `<link>`: [Alarm-Clock](https://nikuwadaskar.github.io/Alarm-clock-project/)
+
+
+# Screenshots 
+`<link>`: [UI](/assets/Screenshot%202022-07-21%20095044.jpg)
+`<link>`: [Alarm Ringing](/assets/Screenshot%202022-07-21%20095115.jpg)
